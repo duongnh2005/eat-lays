@@ -757,7 +757,8 @@ header .logo img {
 .product-section .small-container .wrapper {
   width: 100%;
   height: 300px;
-  background-color: #ffe9f4;
+  /* background-color: #ffe9f4; */
+  background-color: lightgreen;
   border-radius: 12px;
   position: relative;
   overflow: hidden;
@@ -816,9 +817,7 @@ header .logo img {
   position: absolute;
   width: 85%;
   height: 315px;
-  /* max-height: 300px; */
-  /* height: 300px; */
-  /* width: 200px; */
+
   bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
@@ -852,20 +851,6 @@ header .logo img {
   display: block;
   margin: auto;
 }
-
-/* @media screen and (max-width: 1300px) {
-  .product-section .small-container .wrapper {
-    width: 100%;
-    /* height: 390px; 
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .product-section .small-container .wrapper {
-    width: 100%;
-    /* height: 370px; 
-  }
-} */
 
 @media screen and (max-width: 1100px) {
   .product-section .small-container .wrapper {
